@@ -630,23 +630,70 @@
 
 // =====================
 
-function formatMessage(message, maxLength) {
-  let result;
+// function formatMessage(message, maxLength) {
+//   let result;
 
-    if (message.length <= maxLength) {
-      result = message;
-    } else {
-        result = message.slice(0, maxLength) + '...';
-    }
-    
+//     if (message.length <= maxLength) {
+//       result = message;
+//     } else {
+//         result = message.slice(0, maxLength) + '...';
+//     }
 
-      console.log(result);
-  return result;
-}
+//       console.log(result);
+//   return result;
+// }
 
-formatMessage('Curabitur ligula sapien', 16); //повертає "Curabitur ligula..."
-formatMessage('Curabitur ligula sapien', 23); //повертає "Curabitur ligula sapien"
-formatMessage('Vestibulum facilisis purus nec', 20); // повертає "Vestibulum facilisis..."
-formatMessage('Vestibulum facilisis purus nec', 30); //повертає "Vestibulum facilisis purus nec"
-formatMessage('Nunc sed turpis a felis in nunc fringilla', 15); //повертає "Nunc sed turpis..."
-formatMessage('Nunc sed turpis a felis in nunc fringilla', 41); //повертає "Nunc sed turpis a felis in nunc fringilla"
+// formatMessage('Curabitur ligula sapien', 16); //повертає "Curabitur ligula..."
+// formatMessage('Curabitur ligula sapien', 23); //повертає "Curabitur ligula sapien"
+// formatMessage('Vestibulum facilisis purus nec', 20); // повертає "Vestibulum facilisis..."
+// formatMessage('Vestibulum facilisis purus nec', 30); //повертає "Vestibulum facilisis purus nec"
+// formatMessage('Nunc sed turpis a felis in nunc fringilla', 15); //повертає "Nunc sed turpis..."
+// formatMessage('Nunc sed turpis a felis in nunc fringilla', 41); //повертає "Nunc sed turpis a felis in nunc fringilla"
+
+// =====================
+
+// function checkForName(fullName, name) {
+//   const result = fullName.includes(name); // Change this line
+//   console.log(result);
+//   return result;
+// }
+
+// checkForName("Egor Kolbasov", "Egor") //повертає true
+// checkForName("Egor Kolbasov", "egor") //повертає false
+// checkForName("Egor Kolbasov", "egOr") //повертає false
+// checkForName("Egor Kolbasov", "Zhenya") //повертає false
+// checkForName("Vadim Nekrasov", "Vadim") //повертає true
+// checkForName("Vadim Nekrasov", "vadim") //повертає false
+// checkForName("Vadim Nekrasov", "Dima") //повертає false
+
+// =====================
+
+// Функція checkForSpam(message) приймає рядок(параметр message),
+//   перевіряє його на вміст заборонених слів spam і sale,
+//   повертає результат перевірки.
+
+//   Слова в рядку параметра message можуть бути у довільному регістрі, наприклад SPAM або sAlE.
+
+// Якщо знайшли заборонене слово (spam або sale) то функція повертає буль true.
+// Якщо в рядку відсутні заборонені слова, функція повертає буль false.
+
+// function checkForSpam(message) {
+//   let result;
+
+
+//   result =
+//     message.toLowerCase().includes('spam') ||
+//     message.toLowerCase().includes('sale');
+
+
+//       console.log(result);
+//   return result;
+// }
+
+// checkForSpam('Latest technology news'); //повертає false
+// checkForSpam('JavaScript weekly newsletter'); //повертає false
+// checkForSpam('Get best sale offers now!'); //повертає true
+// checkForSpam('Amazing SalE, only tonight!'); //повертає true
+// checkForSpam('Trust me, this is not a spam message'); // повертає true
+// checkForSpam('Get rid of sPaM emails. Our book in on sale!'); //повертає true
+// checkForSpam('[SPAM] How to earn fast money?'); //повертає true
