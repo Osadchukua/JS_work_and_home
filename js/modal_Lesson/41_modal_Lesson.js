@@ -1,9 +1,11 @@
 // Декілька колбеків callback
 // ==========================================================
+
 // function processCall(recipient, onAvailable, onNotAvailable) {
 //   // Імітуємо доступність абонента випадковим числом
 //   const isRecipientAvailable = Math.random() > 0.5;
-
+// console.log(isRecipientAvailable);
+    
 //   if (!isRecipientAvailable) {
 //     onNotAvailable(recipient);
 //     return;
@@ -13,7 +15,7 @@
 // }
 
 // function takeCall(name) {
-//   console.log(`З'єднуємо з ${name}, очікуйте...`);
+//   console.log(`З'єднуємо з ${name}, очікуйте`);
 //   // Логіка прийняття дзвінка
 // }
 
@@ -23,8 +25,8 @@
 // }
 
 // function leaveHoloMessage(name) {
-//   console.log(`Абонент ${name} недоступний, записуємо голограму.`);
-//   // Логіка запису голограми
+//   console.log(`Абонент ${name} недоступний, записуємо голоc.`);
+//   // Логіка запису голоcy
 // }
 
 // processCall('Манго', takeCall, activateAnsweringMachine);
@@ -80,10 +82,14 @@
 // // }
 
 // // Метод перебирання forEach
-// numbers.forEach(function (number, index) {
-//   console.log(`Індекс ${index}, значення ${number}`);
-// });
+// // numbers.forEach(function (number123, index123) {
+// //   console.log(`Індекс ${index123}, значення ${number123}`);
+// // });
 
+// // Метод перебирання forEach
+// numbers.forEach((number123, index123) => {
+//   console.log(`Індекс ${index123}, значення ${number123}`);
+// });
 // ==========================================================
 // Імперативний vs декларативний
 // ==========================================================

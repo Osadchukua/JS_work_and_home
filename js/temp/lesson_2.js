@@ -129,7 +129,7 @@
 // for (let i = 0; i < numbers.length; i += 1){
 //     console.log(numbers[i])
 
-//     if (numbers[i] % 2 === 0) {
+//     if (numbers[i]  2 === 0) {
 //         console.log(`кратене!!!`);
 //         total += numbers[i]
 //     }
