@@ -2,33 +2,6 @@
 // Модуль 4. Заняття 8
 
 
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Osadchukua 
-ArtemRysich
-/
-Group_57_JS
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Group_57_JS/Lesson_4/script.js /
-@ArtemRysich
-ArtemRysich Lesson_4
-Latest commit 430aab0 6 days ago
- History
- 1 contributor
-365 lines (250 sloc)  9.4 KB
-
 // function add(a,b){
 //     return a+b
 // }
@@ -394,18 +367,3 @@ arr.forEach(function (item, idx, newArr) {
 //     return inside;
 //   }
 // console.log(outside()());
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-You have no unread notifications
