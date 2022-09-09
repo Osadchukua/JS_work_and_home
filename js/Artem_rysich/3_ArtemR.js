@@ -271,7 +271,7 @@
 //      */
 //     withdraw(amount) {
 //         if (this.balance < amount) {
-//             alert("Бракує коштів =(...")
+//             alert("Бракує коштів =...")
 //             return
 //         }
 //         this.balance -= amount;
